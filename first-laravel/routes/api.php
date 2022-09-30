@@ -15,7 +15,8 @@ use App\Http\Controllers\SortController;
 |
 */
 
-Route::get("/sortstring/{s}",[SortController::class,'sortString']);
+Route::get("/sort-string/{s}",[SortController::class,'sortString']);
+Route::get("/correct-place/{num}",[PlaceNumberController::class,'placeNumber']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
