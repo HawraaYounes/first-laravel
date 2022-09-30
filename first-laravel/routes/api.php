@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SortController;
-
+use App\Http\Controllers\PlaceNumberController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
