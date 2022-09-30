@@ -18,7 +18,10 @@ class SortController extends Controller
                 }
             }
         }
-        return $s;//return the sorted string
+        return response()->json([//return the sorted string
+            "status"=>"success",
+            "message"=>$s
+        ]);
  
     }
 }
