@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 class PlaceNumberController extends Controller
 {
     function placeNumber($num){
-        $x=0;
         $arr=[];
         $len=floor(log10($num));
         for ($i=0;$i<=$len+2;$i++){
